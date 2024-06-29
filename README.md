@@ -1,10 +1,11 @@
+
+
+
 <h1 align="center">Hi 👋, I'm Faizan</h1>
-<h3 align="center">A passionate software engineer from India</h3>
+<h3 align="center">A passionate Software Engineer from India</h3>
 <p align="left"> <img  src="https://res.cloudinary.com/upwork-cloud/video/upload/c_scale,w_1000/v1679764014/catalog/1639673310185910272/wqlluystgffih9wgfmqm.JPEG">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=thisisfaizanali&label=Profile%20views&color=0e75b6&style=flat" alt="thisisfaizanali" /> </p>
-
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=thisisfaizanali" alt="thisisfaizanali" /></a> </p>
 
 - 🌱 I’m currently learning **ReactJS**
 
@@ -19,6 +20,6 @@
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=thisisfaizanali&show_icons=true&locale=en&layout=compact" alt="thisisfaizanali" /></p>
 
-
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=thisisfaizanali&show_icons=true&locale=en" alt="thisisfaizanali" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=thisisfaizanali&" alt="thisisfaizanali" /></p>
