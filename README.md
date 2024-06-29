@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Faizan</h1>
 <h3 align="center">A passionate frontend developer from India</h3>
-<p align="left"> <img align="right" alt="Coding" width="400" src="https://res.cloudinary.com/upwork-cloud/video/upload/c_scale,w_1000/v1679764014/catalog/1639673310185910272/wqlluystgffih9wgfmqm.JPEG">
+<p align="left"> <img  src="https://res.cloudinary.com/upwork-cloud/video/upload/c_scale,w_1000/v1679764014/catalog/1639673310185910272/wqlluystgffih9wgfmqm.JPEG">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=thisisfaizanali&label=Profile%20views&color=0e75b6&style=flat" alt="thisisfaizanali" /> </p>
 
