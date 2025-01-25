@@ -9,7 +9,7 @@
 - 🌱 Currently learning **ReactJS**.
 - 💬 Ask me about **DSA**, **OS**, **C**, **C++**, **JavaScript**.
 - 👩‍💻 I am always open to collaborating on projects and innovative ideas.
-- ⚡ Reach out to me at **faizanaliwhb@gmail.com**.
+- ⚡ Reach out to me at faizanaliwhb@gmail.com.
 
 <br/> 
 
