@@ -5,12 +5,11 @@
 ## :wave: About Me 
 <a href="https://linkedin.com/in/md-faizan-ali" target="_blank"><img src="https://cdn2.iconfinder.com/data/icons/social-media-2199/64/social_media_isometric_14-linkedin-512.png" height="120px" width="120px" alt="LinkedIn" align="right"></a>
 
-<a href="https://instagram.com/faiz.aliii" target="_blank"><img src="https://cdn2.iconfinder.com/data/icons/social-media-2199/64/social_media_isometric_6-twitter-512.png" height="120px" width="120px" alt="Instagram" align="right"></a>
 
 - 🌱 Currently learning **ReactJS**.
 - 💬 Ask me about **DSA**, **OS**, **C**, **C++**, **JavaScript**.
 - 👩‍💻 I am always open to collaborating on projects and innovative ideas.
-- ⚡ Reach out to me at **your-email@example.com** (if you want to provide one).
+- ⚡ Reach out to me at **faizanaliwhb@gmail.com**.
 
 <br/> 
 
