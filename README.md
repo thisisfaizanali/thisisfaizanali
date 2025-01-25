@@ -1,25 +1,46 @@
-# 💫 About Me:
+<h1 align="center">Hey, I'm Faizan Ali</h1>
 
-🌱 I’m currently learning ReactJS<br>💬 Ask me about DSA, OS, C, C++, JavaScript<br>
+<p align="center"> <img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" height="160px" width="160px"> </p>
 
-## 🌐 Socials:
+## :wave: About Me 
+<a href="https://linkedin.com/in/md-faizan-ali" target="_blank"><img src="https://cdn2.iconfinder.com/data/icons/social-media-2199/64/social_media_isometric_14-linkedin-512.png" height="120px" width="120px" alt="LinkedIn" align="right"></a>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/md-faizan-ali)[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/faiz.aliii)
+<a href="https://instagram.com/faiz.aliii" target="_blank"><img src="https://cdn2.iconfinder.com/data/icons/social-media-2199/64/social_media_isometric_6-twitter-512.png" height="120px" width="120px" alt="Instagram" align="right"></a>
 
-# 💻 Tech Stack:
+- 🌱 Currently learning **ReactJS**.
+- 💬 Ask me about **DSA**, **OS**, **C**, **C++**, **JavaScript**.
+- 👩‍💻 I am always open to collaborating on projects and innovative ideas.
+- ⚡ Reach out to me at **your-email@example.com** (if you want to provide one).
 
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![EJS](https://img.shields.io/badge/ejs-%23B4CA65.svg?style=for-the-badge&logo=ejs&logoColor=black) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![DigitalOcean](https://img.shields.io/badge/DigitalOcean-%230167ff.svg?style=for-the-badge&logo=digitalOcean&logoColor=white) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+<br/> 
 
-# 📊 GitHub Stats:
+## 🔧 Technologies & Tools
+#### **Languages**
+<img height=25 src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white">&nbsp;&nbsp;
+<img height=25 src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E">&nbsp;&nbsp;
+<img height=25 src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">&nbsp;&nbsp;
+<img height=25 src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white">&nbsp;&nbsp;
 
-![](https://github-readme-stats.vercel.app/api?username=thisisfaizanali&theme=radical&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=thisisfaizanali&theme=radical&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=thisisfaizanali&theme=radical&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+#### **Frameworks, Platforms and Libraries**
+<img height=25 src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB">&nbsp;&nbsp;
+<img height=25 src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white">&nbsp;&nbsp;
+<img height=25 src="https://img.shields.io/badge/next-black?style=for-the-badge&logo=next.js&logoColor=white">&nbsp;&nbsp;
+<img height=25 src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB">&nbsp;&nbsp;
+<img height=25 src="https://img.shields.io/badge/ejs-%23B4CA65.svg?style=for-the-badge&logo=ejs&logoColor=black">&nbsp;&nbsp;
 
-## 🏆 GitHub Trophies
+#### **Databases**
+<img height=25 src="https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white">&nbsp;&nbsp;
+<img height=25 src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white">&nbsp;&nbsp;
+<img height=25 src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white">&nbsp;&nbsp;
 
-![](https://github-profile-trophy.vercel.app/?username=thisisfaizanali&theme=radical&no-frame=false&no-bg=true&margin-w=4)
+#### **DevOps & Cloud Tools**
+<img height=25 src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white">&nbsp;&nbsp;
+<img height=25 src="https://img.shields.io/badge/digitalOcean-%230167ff.svg?style=for-the-badge&logo=digitalOcean&logoColor=white">&nbsp;&nbsp;
 
----
-
-[![](https://visitcount.itsvg.in/api?id=thisisfaizanali&icon=0&color=0)](https://visitcount.itsvg.in)
+## 📈 GitHub Stats
+<p align="center">
+<a href="https://github.com/thisisfaizanali">
+  <img height="170em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=thisisfaizanali&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
+  <img height="170em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=thisisfaizanali&layout=compact&langs_count=8&theme=algolia"/>
+</a>
+</p>
