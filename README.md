@@ -40,7 +40,7 @@
 
 <img height=25 src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white">&nbsp;&nbsp;
 <img height=25 src="https://img.shields.io/badge/digitalOcean-%230167ff.svg?style=for-the-badge&logo=digitalOcean&logoColor=white">&nbsp;&nbsp;
-
+[![](https://visitcount.itsvg.in/api?id=thisisfaizanali&icon=0&color=0)](https://visitcount.itsvg.in)
 <!-- ## 📈 GitHub Stats
 
 <p align="center">
@@ -57,7 +57,5 @@
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=thisisfaizanali&theme=blue-green&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
 ---
-
-[![](https://visitcount.itsvg.in/api?id=thisisfaizanali&icon=0&color=0)](https://visitcount.itsvg.in)-->
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
