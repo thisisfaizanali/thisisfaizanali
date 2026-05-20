@@ -97,34 +97,15 @@ I am a full stack developer focused on building clean web applications with intu
 
 ---
 
-### 📊 Engineering Metrics
+### 🧩 Problem Solving
 
-<div align="center">
-  <table border="0">
-    <tr>
-      <td>
-        <img height="165em" src="https://github-readme-stats.vercel.app/api?username=thisisfaizanali&show_icons=true&theme=tokyonight&include_all_commits=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=ffffff" />
-      </td>
-      <td>
-        <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=thisisfaizanali&layout=compact&langs_count=6&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=ffffff" />
-      </td>
-    </tr>
-  </table>
-  <img src="https://streak-stats.demolab.com/?user=thisisfaizanali&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF6B6B&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=58A6FF&sideLabels=58A6FF&dates=888888" width="100%" style="max-width: 495px; margin-top: 10px;" />
-</div>
-
----
-
-### 🧩 Competitive Programming
-
-| Platform               | Handle                                                                 | Performance                                         |
-| :--------------------- | :--------------------------------------------------------------------- | :-------------------------------------------------- |
-| 🌐 **Meta Hacker Cup** | [thisisfaizanali](https://github.com/thisisfaizanali)                  | **Global Rank 7361** (Round 1, 2024)                |
-| 🟢 **GeeksforGeeks**   | [thisisfaizanali](https://www.geeksforgeeks.org/user/thisisfaizanali/) | **Institute Rank #2** · Rank 587 Weekly Contest 167 |
-| 🟡 **LeetCode**        | [thisisfaizanali](https://leetcode.com/u/thisisfaizanali/)             | **600+ Problems Solved** Across Platforms           |
+| Platform             | Handle                                                                 | Performance                                         |
+| :------------------- | :--------------------------------------------------------------------- | :-------------------------------------------------- |
+| 🟢 **GeeksforGeeks** | [thisisfaizanali](https://www.geeksforgeeks.org/user/thisisfaizanali/) | **Institute Rank #2** · Rank 587 Weekly Contest 167 |
+| 🟡 **LeetCode**      | [thisisfaizanali](https://leetcode.com/u/thisisfaizanali/)             | **600+ Problems Solved** Across Platforms           |
 
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,12,19&height=100&section=footer" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&customColorList=2,12,19&height=100&section=footer" width="100%"/>
 </div>
