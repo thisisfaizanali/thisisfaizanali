@@ -102,7 +102,7 @@ I am a full stack developer focused on building clean web applications with intu
 | Platform             | Handle                                                                 | Performance                                         |
 | :------------------- | :--------------------------------------------------------------------- | :-------------------------------------------------- |
 | 🟢 **GeeksforGeeks** | [thisisfaizanali](https://www.geeksforgeeks.org/user/thisisfaizanali/) | **Institute Rank #2** · Rank 587 Weekly Contest 167 |
-| 🟡 **LeetCode**      | [thisisfaizanali](https://leetcode.com/u/thisisfaizanali/)             | **600+ Problems Solved** Across Platforms           |
+| 🟡 **LeetCode**      | [thisisfaizanali](https://leetcode.com/u/thisisfaizanali/)             | **600+ Problems Solved**                            |
 
 ---
 
