@@ -8,14 +8,18 @@
   <br />
 </div>
 
+<p align="center">
+  <img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" height="160px" width="160px" alt="Daft Punk Octocat">
+</p>
+
 <div align="center">
-  <a href="https://linkedin.com/in/md-faizan-ali"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="https://leetcode.com/u/thisisfaizanali/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/></a>
-  <a href="https://github.com/thisisfaizanali"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+  <a href="https://linkedin.com/in/md-faizan-ali" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://leetcode.com/u/thisisfaizanali/" target="_blank"><img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black" alt="LeetCode"/></a>
+  <a href="https://github.com/thisisfaizanali" target="_blank"><img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
   <a href="mailto:faizanaliwhb@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 </div>
 
-<div align="center" style="margin-top: 15px;">
+<div align="center" style="margin-top: 20px;">
   <img src="https://komarev.com/ghpvc/?username=thisisfaizanali&label=Profile+Views&color=58A6FF&style=flat-square" alt="Profile Views"/>
   <img src="https://img.shields.io/github/followers/thisisfaizanali?label=Followers&style=flat-square&color=58A6FF&logo=github" alt="Followers"/>
 </div>
@@ -24,65 +28,72 @@
 
 ### 💫 About Me
 
-I build production-ready full stack web applications with a sharp focus on clean architecture, intuitive UX, and AI-powered workflows. Currently deep in the **React/Next.js ecosystem**, building real-world software and exploring semantic data layers with LLMs.
+I am a full stack developer focused on building clean web applications with intuitive UX and practical AI integrations. I love breaking down complex layouts, writing type-safe code, and diving deep into problem-solving.
 
-- **⚡ Current Focus:** Crafting web platforms using Next.js, TypeScript, and robust relational data modeling.
-- **🤖 AI Engineering:** Designing context-aware tools that rely on deterministic prompt outputs over basic chat demos.
-- **🧠 Problem Solving:** Solved **600+ DSA problems** across LeetCode and GeeksforGeeks.
-- **🤝 Collaboration:** Open to partnering on high-performance full stack architectures or AI integrations.
+- **⚡ Current Focus:** Developing responsive web platforms using the React/Next.js ecosystem and relational databases.
+- **🤖 Practical AI:** Integrating LLMs into workflows to build tools that provide structured, reliable feedback.
+- **🧠 Algorithmic Thinking:** Solved **600+ DSA problems** across LeetCode and GeeksforGeeks, with a strong foundation in core data structures.
+- **🤝 Collaboration:** Open to partnering on interesting full-stack projects, open-source tools, or AI-integrated web apps.
 
 ---
 
 ### 🛠️ Tech Stack
 
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🌐 Frontend Ecosystem</h4>
-      <img src="https://img.shields.io/badge/React-161B22?style=flat&logo=react&logoColor=61DAFB"/>
-      <img src="https://img.shields.io/badge/Next.js-161B22?style=flat&logo=next.js&logoColor=white"/>
-      <img src="https://img.shields.io/badge/TypeScript-161B22?style=flat&logo=typescript&logoColor=007ACC"/>
-      <img src="https://img.shields.io/badge/Tailwind_CSS-161B22?style=flat&logo=tailwindcss&logoColor=06B6D4"/>
-      <img src="https://img.shields.io/badge/JavaScript-161B22?style=flat&logo=javascript&logoColor=F7DF1E"/>
-    </td>
-    <td width="50%" valign="top">
-      <h4>⚙️ Backend & Database</h4>
-      <img src="https://img.shields.io/badge/Node.js-161B22?style=flat&logo=node.js&logoColor=339933"/>
-      <img src="https://img.shields.io/badge/Express-161B22?style=flat&logo=express&logoColor=white"/>
-      <img src="https://img.shields.io/badge/PostgreSQL-161B22?style=flat&logo=postgresql&logoColor=4169E1"/>
-      <img src="https://img.shields.io/badge/MongoDB-161B22?style=flat&logo=mongodb&logoColor=47A248"/>
-      <img src="https://img.shields.io/badge/MySQL-161B22?style=flat&logo=mysql&logoColor=4479A1"/>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  
+  **Frontend**
+  
+  ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+  ![Next.js](https://img.shields.io/badge/Next.js-161B22?style=for-the-badge&logo=next.js&logoColor=white)
+  ![TypeScript](https://img.shields.io/badge/typescript-%23007acc.svg?style=for-the-badge&logo=typescript&logoColor=white)
+  ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+  ![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
 
-#### 🧰 Dev Tools & Cloud
+**Backend & Database**
 
-<img src="https://img.shields.io/badge/Vercel-161B22?style=flat&logo=vercel&logoColor=white"/> <img src="https://img.shields.io/badge/DigitalOcean-161B22?style=flat&logo=digitalocean&logoColor=0080FF"/> <img src="https://img.shields.io/badge/Git-161B22?style=flat&logo=git&logoColor=F05032"/> <img src="https://img.shields.io/badge/Drizzle_ORM-161B22?style=flat&logo=drizzle&logoColor=C5F74F"/>
+![NodeJS](https://img.shields.io/badge/node.js-%236DA55F.svg?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+![PostgreSQL](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![Sanity](https://img.shields.io/badge/Sanity-F03E3E?style=for-the-badge&logo=sanity&logoColor=white)
+
+**Tools & Ecosystem**
+
+![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
+![Clerk](https://img.shields.io/badge/Clerk-6C47FF?style=for-the-badge&logo=clerk&logoColor=white)
+![Drizzle](https://img.shields.io/badge/Drizzle-C5F74F?style=for-the-badge&logo=drizzle&logoColor=black)
+![Shadcn/ui](https://img.shields.io/badge/Shadcn/ui-000000?style=for-the-badge&logo=shadcnui&logoColor=white)
+![HeroUI](https://img.shields.io/badge/HeroUI-FF4154?style=for-the-badge&logo=heroui&logoColor=white)
+
+</div>
 
 ---
 
 ### 🚀 Featured Projects
 
-#### 📂 [Droply](https://github.com/thisisfaizanali/droply) — Premium File Storage
+#### 📂 Droply `Premium File Storage`
 
-> Full-featured cloud asset manager utilizing a modern, decoupled storage architecture. Features global secure file streams, complex data mutation states, and granular user asset pipelines.
+> Architected a cloud-based asset management platform utilizing a decoupled storage architecture with secure personal dashboards and custom file grouping rules.
 
-- **Stack:** `Next.js` · `PostgreSQL` · `Drizzle ORM` · `Clerk` · `ImageKit` · `TypeScript`
-- **Key Focus:** Clean relational data normalization and strict optimistic UI patterns.
+- **Codebase:** [![GitHub](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/thisisfaizanali/droply)
+- **Stack:** `Next.js` · `PostgreSQL (Neon)` · `Drizzle ORM` · `Clerk Auth` · `ImageKit` · `HeroUI` · `Tailwind CSS`
+- **Key Focus:** Strict relational data persistence, global file streaming, and responsive Star/Trash organization systems.
 
-#### 🧠 [AI Resume Analyzer](https://github.com/thisisfaizanali/ai-resume-analyzer) — LLM ATS Optimization
+#### 🧠 AI Resume Analyzer `Intelligent Optimization`
 
-> High-throughput document analysis machine engineered to cross-reference custom CVs against industry-specific job descriptions for algorithmic ATS scoring.
+> Built an AI-powered document evaluation engine featuring serverless authentication and real-time inference processing to optimize candidate matching against custom job roles.
 
-- **Stack:** `Next.js` · `TypeScript` · `OpenAI/LLM` · `Structured Output Parsing`
-- **Key Focus:** Programmatic prompt safety, overcoming token drift, and ensuring JSON-structured feedback schemas.
+- **Codebase:** [![GitHub](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/thisisfaizanali/ai-resume-analyzer)
+- **Stack:** `React` · `React Router v7` · `Zustand` · `Puter.js` · `Integrated LLMs`
+- **Key Focus:** Automated algorithmic evaluation calculating precise ATS Compatibility Scores alongside structured, custom feedback streams.
 
-#### 🗺️ [StartupAtlas](https://github.com/thisisfaizanali/startup-atlas) — Founder Discovery Network
+#### 🗺️ StartupAtlas `Founder Directory Platform`
 
-> Real-time collaborative platform highlighting early-stage corporate ventures. Employs aggressive ISR and edge caching to minimize time-to-first-byte (TTFB).
+> Developed a collaborative directory hub mapping early-stage ideas and virtual pitch competitions, optimizing fast initial loads and search-engine discoverability.
 
-- **Stack:** `Next.js` · `Sanity CMS` · `SSR / ISR` · `GitHub Auth` · `TypeScript`
+- **Codebase:** [![GitHub](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/thisisfaizanali/startup-atlas)
+- **Stack:** `Next.js 15` · `Sanity CMS` · `GitHub OAuth` · `Live Content API` · `Shadcn/ui`
+- **Key Focus:** Real-time stream syncing using Server-Side Rendering (SSR), multi-criteria search routing, and granular category filtering.
 
 ---
 
@@ -104,30 +115,13 @@ I build production-ready full stack web applications with a sharp focus on clean
 
 ---
 
-### 📈 Activity & Insights
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=thisisfaizanali&theme=tokyo-night&bg_color=0D1117&color=58A6FF&line=58A6FF&point=ffffff&area=true&hide_border=true" alt="Contribution Graph" width="100%"/>
-</div>
-
-<br />
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/thisisfaizanali/thisisfaizanali/output/github-snake-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/thisisfaizanali/thisisfaizanali/output/github-snake.svg"/>
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/thisisfaizanali/thisisfaizanali/output/github-snake.svg" width="90%"/>
-  </picture>
-</div>
-
----
-
 ### 🧩 Competitive Programming
 
-| Platform          | Handle                                                                  | Performance                  |
-| :---------------- | :---------------------------------------------------------------------- | :--------------------------- |
-| **LeetCode**      | [@thisisfaizanali](https://leetcode.com/u/thisisfaizanali/)             | **600+ Problems Solved**     |
-| **GeeksforGeeks** | [@thisisfaizanali](https://www.geeksforgeeks.org/user/thisisfaizanali/) | Core Data Structures Mastery |
+| Platform               | Handle                                                                 | Performance                                         |
+| :--------------------- | :--------------------------------------------------------------------- | :-------------------------------------------------- |
+| 🌐 **Meta Hacker Cup** | [thisisfaizanali](https://github.com/thisisfaizanali)                  | **Global Rank 7361** (Round 1, 2024)                |
+| 🟢 **GeeksforGeeks**   | [thisisfaizanali](https://www.geeksforgeeks.org/user/thisisfaizanali/) | **Institute Rank #2** · Rank 587 Weekly Contest 167 |
+| 🟡 **LeetCode**        | [thisisfaizanali](https://leetcode.com/u/thisisfaizanali/)             | **600+ Problems Solved** Across Platforms           |
 
 ---
 
