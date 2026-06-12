@@ -60,18 +60,6 @@ Open to collaborating on full-stack projects, open-source tools, or anything AI-
 
 ---
 
-### GitHub Stats
-
-<div align="center">
-
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=thisisfaizanali&show_icons=true&theme=github_dark&hide_border=true&count_private=true&rank_icon=github" alt="GitHub Stats"/>
-&nbsp;&nbsp;
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=thisisfaizanali&layout=compact&theme=github_dark&hide_border=true&langs_count=6" alt="Top Languages"/>
-
-</div>
-
----
-
 ### Problem Solving
 
 <div align="center">
@@ -80,6 +68,18 @@ Open to collaborating on full-stack projects, open-source tools, or anything AI-
 | :----------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------- | :-------------------------------------------------- |
 | ![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=LeetCode&logoColor=black)                | [thisisfaizanali](https://leetcode.com/u/thisisfaizanali/)             | **600+ Problems Solved**                            |
 | ![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-2F8D46?style=flat-square&logo=geeksforgeeks&logoColor=white) | [thisisfaizanali](https://www.geeksforgeeks.org/user/thisisfaizanali/) | **Institute Rank #2** · Rank 587 Weekly Contest 167 |
+
+</div>
+
+---
+
+### GitHub Stats
+
+<div align="center">
+
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=thisisfaizanali&show_icons=true&theme=github_dark&hide_border=true&count_private=true&rank_icon=github" alt="GitHub Stats"/>
+&nbsp;&nbsp;
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=thisisfaizanali&layout=compact&theme=github_dark&hide_border=true&langs_count=6" alt="Top Languages"/>
 
 </div>
 
