@@ -7,16 +7,16 @@
 <br/>
 <br/>
 
-<img src="https://media1.tenor.com/m/034VyqIYMBgAAAAd/red-aura-shanks.gif" height="120" alt="Shanks - One Piece"/>
-
-<br/>
-<br/>
-
 <samp>❯&nbsp;connect&nbsp;--via</samp>&nbsp;&nbsp;&nbsp;
 <a href="https://linkedin.com/in/md-faizan-ali"><img height="42" src="https://skillicons.dev/icons?i=linkedin&theme=dark" alt="LinkedIn"/></a>&nbsp;&nbsp;
 <a href="https://leetcode.com/u/thisisfaizanali/"><img height="42" src="assets/leetcode.svg" alt="LeetCode"/></a>&nbsp;&nbsp;
 <a href="https://github.com/thisisfaizanali"><img height="42" src="https://skillicons.dev/icons?i=github&theme=dark" alt="GitHub"/></a>&nbsp;&nbsp;
 <a href="mailto:faizanaliwhb@gmail.com"><img height="42" src="https://skillicons.dev/icons?i=gmail&theme=dark" alt="Email"/></a>
+
+<br/>
+<br/>
+
+<img src="https://media1.tenor.com/m/034VyqIYMBgAAAAd/red-aura-shanks.gif" height="130" alt="Shanks - One Piece"/>
 
 </div>
 
