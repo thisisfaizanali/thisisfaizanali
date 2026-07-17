@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>Hi, I am Faizan&nbsp;Ali</h1>
+<h1>👋 Glad you're here! I'm Faizan Ali.</h1>
 
 <img src="assets/terminal.svg" width="100%" alt="fastfetch — faizan@github: Full Stack Developer, Bengaluru, India"/>
 
