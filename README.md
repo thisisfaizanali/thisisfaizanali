@@ -3,23 +3,21 @@
 <h1>Faizan Ali</h1>
 <p>Full Stack Developer &nbsp;·&nbsp; Bengaluru, India</p>
 
-```
-$ whoami
-Faizan Ali — Full Stack Developer, Bengaluru, India
+<img src="assets/terminal.svg" width="100%" alt="faizan@github: ~/profile terminal"/>
 
-$ interests
-web dev · systems design · competitive programming · anime marathons
-```
+<br/>
+<br/>
 
-<img src="https://media1.tenor.com/m/034VyqIYMBgAAAAd/red-aura-shanks.gif" height="150" alt="Shanks - One Piece">
+<img src="https://media1.tenor.com/m/034VyqIYMBgAAAAd/red-aura-shanks.gif" height="140" alt="Shanks - One Piece">
+
 <br/>
-<a href="https://linkedin.com/in/md-faizan-ali" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>&nbsp;
-<a href="https://leetcode.com/u/thisisfaizanali/" target="_blank"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=LeetCode&logoColor=black" alt="LeetCode"/></a>&nbsp;
-<a href="https://github.com/thisisfaizanali" target="_blank"><img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub"/></a>&nbsp;
-<a href="mailto:faizanaliwhb@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
 <br/>
-<img src="https://komarev.com/ghpvc/?username=thisisfaizanali&label=profile+views&color=58A6FF&style=flat-square" alt="Profile Views"/>&nbsp;
-<img src="https://img.shields.io/github/followers/thisisfaizanali?label=followers&style=flat-square&color=58A6FF&logo=github" alt="Followers"/>
+
+<samp>❯ connect --via</samp>&nbsp;&nbsp;
+<a href="https://linkedin.com/in/md-faizan-ali"><samp>linkedin</samp></a> ·
+<a href="https://leetcode.com/u/thisisfaizanali/"><samp>leetcode</samp></a> ·
+<a href="https://github.com/thisisfaizanali"><samp>github</samp></a> ·
+<a href="mailto:faizanaliwhb@gmail.com"><samp>email</samp></a>
 
 </div>
 
@@ -30,7 +28,7 @@ web dev · systems design · competitive programming · anime marathons
 <tr>
 <td width="50%" valign="top">
 
-**`$ about`**
+<samp>❯ cat about.md</samp>
 
 I build fast, type-safe web applications with clean architecture and sharp UX — mostly across the React and Next.js ecosystem, increasingly with LLMs wired into real product workflows.
 
@@ -41,7 +39,7 @@ Open to collaborating on full-stack projects, open-source tools, or anything AI-
 </td>
 <td width="50%" valign="top">
 
-**`$ tech_stack`**
+<samp>❯ ls ~/stack</samp>
 
 Languages
 <br/>
@@ -49,9 +47,9 @@ Languages
 
 Frontend
 <br/>
-<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind&theme=dark" alt="Frontend"/>&nbsp;&nbsp;<img src="https://img.shields.io/badge/shadcn/ui-000000?style=flat-square&logo=shadcnui&logoColor=white" alt="Shadcn/ui"/>
+<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind&theme=dark" alt="Frontend"/>
 
-Backend & DB
+Backend &amp; DB
 <br/>
 <img src="https://skillicons.dev/icons?i=nodejs,express,postgres,mongodb&theme=dark" alt="Backend & DB"/>
 
@@ -64,17 +62,15 @@ Tools
 <tr>
 <td width="50%" valign="top">
 
-**`$ problem_solving`**
+<samp>❯ ./solve --stats</samp>
 
-![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=LeetCode&logoColor=black)
-&nbsp;**600+ Problems Solved**
+**LeetCode** &nbsp;·&nbsp; 600+ Problems Solved
 <br/>
 [thisisfaizanali](https://leetcode.com/u/thisisfaizanali/)
 
 <br/>
 
-![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-2F8D46?style=flat-square&logo=geeksforgeeks&logoColor=white)
-&nbsp;**Institute Rank #2**
+**GeeksforGeeks** &nbsp;·&nbsp; Institute Rank #2
 <br/>
 Weekly Contest 167 &nbsp;·&nbsp; Rank 587
 <br/>
@@ -83,7 +79,7 @@ Weekly Contest 167 &nbsp;·&nbsp; Rank 587
 </td>
 <td width="50%" valign="top">
 
-**`$ github_stats`**
+<samp>❯ git log --stat</samp>
 
 <img width="100%" src="https://github-readme-stats.vercel.app/api?username=thisisfaizanali&show_icons=true&theme=github_dark&hide_border=true&count_private=true&rank_icon=github" alt="GitHub Stats"/>
 
@@ -97,5 +93,5 @@ Weekly Contest 167 &nbsp;·&nbsp; Rank 587
 <br/>
 
 <div align="center">
-<sub>Thanks for stopping by — always happy to connect.</sub>
+<samp># thanks for stopping by — always happy to connect.</samp>
 </div>
