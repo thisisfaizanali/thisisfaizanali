@@ -13,10 +13,10 @@
 <br/>
 
 <samp>❯&nbsp;connect&nbsp;--via</samp>&nbsp;&nbsp;&nbsp;
-<a href="https://linkedin.com/in/md-faizan-ali">linkedin</a>&nbsp;·&nbsp;
-<a href="https://leetcode.com/u/thisisfaizanali/">leetcode</a>&nbsp;·&nbsp;
-<a href="https://github.com/thisisfaizanali">github</a>&nbsp;·&nbsp;
-<a href="mailto:faizanaliwhb@gmail.com">email</a>
+<a href="https://linkedin.com/in/md-faizan-ali"><img height="26" src="https://cdn.simpleicons.org/linkedin/58a6ff" alt="LinkedIn"/></a>&nbsp;&nbsp;
+<a href="https://leetcode.com/u/thisisfaizanali/"><img height="26" src="https://cdn.simpleicons.org/leetcode/58a6ff" alt="LeetCode"/></a>&nbsp;&nbsp;
+<a href="https://github.com/thisisfaizanali"><img height="26" src="https://cdn.simpleicons.org/github/58a6ff" alt="GitHub"/></a>&nbsp;&nbsp;
+<a href="mailto:faizanaliwhb@gmail.com"><img height="26" src="https://cdn.simpleicons.org/gmail/58a6ff" alt="Email"/></a>
 
 </div>
 
