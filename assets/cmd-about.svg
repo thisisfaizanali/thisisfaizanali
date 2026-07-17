@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 168 36" width="168" height="36" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" role="img" aria-label="cat about.md">
+  <rect x="1" y="3" width="166" height="30" rx="8" fill="#0f1524" stroke="#283040" stroke-width="1"/>
+  <text x="16" y="24" font-size="14" xml:space="preserve">
+    <tspan fill="#56d364" font-weight="700">❯</tspan><tspan fill="#e6edf3"> cat </tspan><tspan fill="#79c0ff">about.md</tspan>
+  </text>
+</svg>

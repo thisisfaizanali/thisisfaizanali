@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 188 36" width="188" height="36" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" role="img" aria-label="git log --stat">
+  <rect x="1" y="3" width="186" height="30" rx="8" fill="#0f1524" stroke="#283040" stroke-width="1"/>
+  <text x="16" y="24" font-size="14" xml:space="preserve">
+    <tspan fill="#56d364" font-weight="700">❯</tspan><tspan fill="#e6edf3"> git log </tspan><tspan fill="#d2a8ff">--stat</tspan>
+  </text>
+</svg>

@@ -1,34 +1,35 @@
 <div align="center">
 
-<h1>Faizan Ali</h1>
-<p>Full Stack Developer &nbsp;·&nbsp; Bengaluru, India</p>
+<h1>Faizan&nbsp;Ali</h1>
 
-<img src="assets/terminal.svg" width="100%" alt="faizan@github: ~/profile terminal"/>
-
-<br/>
-<br/>
-
-<img src="https://media1.tenor.com/m/034VyqIYMBgAAAAd/red-aura-shanks.gif" height="140" alt="Shanks - One Piece">
+<img src="assets/terminal.svg" width="100%" alt="fastfetch — faizan@github: Full Stack Developer, Bengaluru, India"/>
 
 <br/>
 <br/>
 
-<samp>❯ connect --via</samp>&nbsp;&nbsp;
-<a href="https://linkedin.com/in/md-faizan-ali"><samp>linkedin</samp></a> ·
-<a href="https://leetcode.com/u/thisisfaizanali/"><samp>leetcode</samp></a> ·
-<a href="https://github.com/thisisfaizanali"><samp>github</samp></a> ·
-<a href="mailto:faizanaliwhb@gmail.com"><samp>email</samp></a>
+<img src="https://media1.tenor.com/m/034VyqIYMBgAAAAd/red-aura-shanks.gif" height="120" alt="Shanks - One Piece"/>
+
+<br/>
+<br/>
+
+<samp>❯&nbsp;connect&nbsp;--via</samp>&nbsp;&nbsp;&nbsp;
+<a href="https://linkedin.com/in/md-faizan-ali">linkedin</a>&nbsp;·&nbsp;
+<a href="https://leetcode.com/u/thisisfaizanali/">leetcode</a>&nbsp;·&nbsp;
+<a href="https://github.com/thisisfaizanali">github</a>&nbsp;·&nbsp;
+<a href="mailto:faizanaliwhb@gmail.com">email</a>
 
 </div>
 
 <br/>
 
 <div align="center">
-<table width="100%">
+<table width="100%" cellpadding="12">
 <tr>
 <td width="50%" valign="top">
 
-<samp>❯ cat about.md</samp>
+<img src="assets/cmd-about.svg" height="34" alt="cat about.md"/>
+
+<br/>
 
 I build fast, type-safe web applications with clean architecture and sharp UX — mostly across the React and Next.js ecosystem, increasingly with LLMs wired into real product workflows.
 
@@ -39,34 +40,38 @@ Open to collaborating on full-stack projects, open-source tools, or anything AI-
 </td>
 <td width="50%" valign="top">
 
-<samp>❯ ls ~/stack</samp>
+<img src="assets/cmd-stack.svg" height="34" alt="ls ~/stack"/>
 
-Languages
+<br/>
+
+<sub>**LANGUAGES**</sub>
 <br/>
 <img src="https://skillicons.dev/icons?i=js,ts,cpp,mysql&theme=dark" alt="Languages"/>
 
-Frontend
+<sub>**FRONTEND**</sub>
 <br/>
 <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind&theme=dark" alt="Frontend"/>
 
-Backend &amp; DB
+<sub>**BACKEND · DB**</sub>
 <br/>
-<img src="https://skillicons.dev/icons?i=nodejs,express,postgres,mongodb&theme=dark" alt="Backend & DB"/>
+<img src="https://skillicons.dev/icons?i=nodejs,express,postgres,mongodb&theme=dark" alt="Backend and DB"/>
 
-Tools
+<sub>**TOOLING**</sub>
 <br/>
-<img src="https://skillicons.dev/icons?i=git,vercel,postman,vscode&theme=dark" alt="Tools"/>
+<img src="https://skillicons.dev/icons?i=git,vercel,postman,vscode&theme=dark" alt="Tooling"/>
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-<samp>❯ ./solve --stats</samp>
+<img src="assets/cmd-solve.svg" height="34" alt="./solve --stats"/>
 
-**LeetCode** &nbsp;·&nbsp; 600+ Problems Solved
 <br/>
-[thisisfaizanali](https://leetcode.com/u/thisisfaizanali/)
+
+**LeetCode** &nbsp;·&nbsp; 600+ problems solved
+<br/>
+<a href="https://leetcode.com/u/thisisfaizanali/">leetcode.com/u/thisisfaizanali</a>
 
 <br/>
 
@@ -74,12 +79,14 @@ Tools
 <br/>
 Weekly Contest 167 &nbsp;·&nbsp; Rank 587
 <br/>
-[thisisfaizanali](https://www.geeksforgeeks.org/user/thisisfaizanali/)
+<a href="https://www.geeksforgeeks.org/user/thisisfaizanali/">geeksforgeeks.org/user/thisisfaizanali</a>
 
 </td>
 <td width="50%" valign="top">
 
-<samp>❯ git log --stat</samp>
+<img src="assets/cmd-stats.svg" height="34" alt="git log --stat"/>
+
+<br/>
 
 <img width="100%" src="https://github-readme-stats.vercel.app/api?username=thisisfaizanali&show_icons=true&theme=github_dark&hide_border=true&count_private=true&rank_icon=github" alt="GitHub Stats"/>
 

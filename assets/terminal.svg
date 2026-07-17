@@ -1,53 +1,93 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 300" width="840" height="300" font-family="ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, Consolas, monospace" role="img" aria-label="faizan@github terminal">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 364" width="900" height="364" font-family="ui-monospace, 'SF Mono', 'Cascadia Code', 'JetBrains Mono', Menlo, Consolas, monospace" role="img" aria-label="fastfetch — faizan@github">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#0d1117"/>
-      <stop offset="1" stop-color="#0a0d12"/>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d1220"/>
+      <stop offset="1" stop-color="#090c15"/>
     </linearGradient>
+    <linearGradient id="logo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#56d364"/>
+      <stop offset="1" stop-color="#2dd4bf"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.18" cy="0.2" r="0.6">
+      <stop offset="0" stop-color="#1f6feb" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#1f6feb" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
     <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#000000" flood-opacity="0.45"/>
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#000000" flood-opacity="0.5"/>
     </filter>
   </defs>
 
   <!-- window body -->
-  <rect x="8" y="8" width="824" height="284" rx="12" fill="url(#bg)" stroke="#30363d" stroke-width="1" filter="url(#shadow)"/>
+  <rect x="8" y="8" width="884" height="348" rx="14" fill="url(#body)" stroke="#283040" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="9" y="9" width="882" height="346" rx="13" fill="url(#glow)"/>
+  <rect x="9.5" y="9.5" width="881" height="345" rx="13" fill="none" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
 
   <!-- title bar -->
-  <path d="M8 20 a12 12 0 0 1 12 -12 h800 a12 12 0 0 1 12 12 v20 h-824 z" fill="#161b22"/>
-  <line x1="8" y1="40" x2="832" y2="40" stroke="#30363d" stroke-width="1"/>
-  <!-- traffic lights -->
-  <circle cx="30" cy="24" r="6" fill="#ff5f56"/>
-  <circle cx="50" cy="24" r="6" fill="#ffbd2e"/>
-  <circle cx="70" cy="24" r="6" fill="#27c93f"/>
-  <!-- title -->
-  <text x="420" y="28" text-anchor="middle" font-size="13" fill="#8b949e">faizan@github: ~/profile</text>
+  <path d="M8 22 a14 14 0 0 1 14 -14 h856 a14 14 0 0 1 14 14 v22 h-884 z" fill="#0f1524"/>
+  <line x1="8" y1="44" x2="892" y2="44" stroke="#283040" stroke-width="1"/>
+  <circle cx="34" cy="26" r="6.5" fill="#ff5f56"/>
+  <circle cx="56" cy="26" r="6.5" fill="#ffbd2e"/>
+  <circle cx="78" cy="26" r="6.5" fill="#27c93f"/>
+  <text x="450" y="31" text-anchor="middle" font-size="13" fill="#6e7681" letter-spacing="0.3">faizan@github: ~</text>
+  <text x="866" y="31" text-anchor="end" font-size="12" fill="#3d4553">zsh</text>
 
-  <!-- body -->
-  <g font-size="16">
-    <!-- line 1: whoami -->
-    <text x="32" y="82">
-      <tspan fill="#27c93f">faizan@github</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#58a6ff">~</tspan><tspan fill="#8b949e"> $ </tspan><tspan fill="#e6edf3">whoami</tspan>
-    </text>
-    <text x="32" y="110" fill="#c9d1d9">Faizan Ali <tspan fill="#6e7681">—</tspan> Full Stack Developer <tspan fill="#6e7681">·</tspan> Bengaluru, India</text>
+  <!-- command that ran -->
+  <text x="34" y="76" font-size="15.5" xml:space="preserve">
+    <tspan fill="#56d364" font-weight="700">❯</tspan><tspan fill="#e6edf3"> fastfetch</tspan>
+  </text>
 
-    <!-- line 2: cat interests -->
-    <text x="32" y="150">
-      <tspan fill="#27c93f">faizan@github</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#58a6ff">~</tspan><tspan fill="#8b949e"> $ </tspan><tspan fill="#e6edf3">cat </tspan><tspan fill="#a5d6ff">interests.txt</tspan>
-    </text>
-    <text x="32" y="178" fill="#c9d1d9">web dev <tspan fill="#6e7681">·</tspan> systems design <tspan fill="#6e7681">·</tspan> competitive programming <tspan fill="#6e7681">·</tspan> anime</text>
-
-    <!-- line 3: currently -->
-    <text x="32" y="218">
-      <tspan fill="#27c93f">faizan@github</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#58a6ff">~</tspan><tspan fill="#8b949e"> $ </tspan><tspan fill="#e6edf3">echo </tspan><tspan fill="#a5d6ff">$STATUS</tspan>
-    </text>
-    <text x="32" y="246" fill="#c9d1d9">shipping with LLMs wired into real workflows <tspan fill="#6e7681">·</tspan> fundamentals sharp</text>
-
-    <!-- prompt + blinking cursor -->
-    <text x="32" y="282">
-      <tspan fill="#27c93f">faizan@github</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#58a6ff">~</tspan><tspan fill="#8b949e"> $ </tspan>
-    </text>
-    <rect x="150" y="270" width="9" height="16" fill="#27c93f">
-      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" repeatCount="indefinite"/>
-    </rect>
+  <!-- ASCII logo -->
+  <g font-size="30" font-weight="700" fill="url(#logo)" filter="url(#soft)" letter-spacing="1">
+    <text x="52" y="150">█▀▀ █▀█</text>
+    <text x="52" y="182">█▀▀ █▀█</text>
+    <text x="52" y="214">▀   ▀ ▀</text>
   </g>
+  <text x="52" y="252" font-size="13" fill="#6e7681" letter-spacing="3">FULL·STACK</text>
+
+  <!-- info block -->
+  <g font-size="15">
+    <text x="290" y="118">
+      <tspan fill="#56d364" font-weight="700">faizan</tspan><tspan fill="#6e7681">@</tspan><tspan fill="#79c0ff" font-weight="700">github</tspan>
+    </text>
+    <line x1="290" y1="132" x2="470" y2="132" stroke="#283040" stroke-width="1"/>
+
+    <text x="290" y="162"><tspan fill="#d2a8ff" font-weight="700">Role</tspan></text>
+    <text x="410" y="162" fill="#e6edf3">Full Stack Developer</text>
+
+    <text x="290" y="190"><tspan fill="#d2a8ff" font-weight="700">Location</tspan></text>
+    <text x="410" y="190" fill="#e6edf3">Bengaluru, India</text>
+
+    <text x="290" y="218"><tspan fill="#d2a8ff" font-weight="700">Stack</tspan></text>
+    <text x="410" y="218" fill="#e6edf3" xml:space="preserve">React <tspan fill="#3d4553">·</tspan> Next.js <tspan fill="#3d4553">·</tspan> Node <tspan fill="#3d4553">·</tspan> TypeScript</text>
+
+    <text x="290" y="246"><tspan fill="#d2a8ff" font-weight="700">Focus</tspan></text>
+    <text x="410" y="246" fill="#e6edf3">LLM-integrated products</text>
+
+    <text x="290" y="274"><tspan fill="#d2a8ff" font-weight="700">Solved</tspan></text>
+    <text x="410" y="274" fill="#a5d6ff" xml:space="preserve">600+ <tspan fill="#e6edf3">DSA problems</tspan></text>
+  </g>
+
+  <!-- palette strip -->
+  <g>
+    <rect x="290" y="298" width="20" height="20" rx="4" fill="#ff5f56"/>
+    <rect x="316" y="298" width="20" height="20" rx="4" fill="#ffa657"/>
+    <rect x="342" y="298" width="20" height="20" rx="4" fill="#e3b341"/>
+    <rect x="368" y="298" width="20" height="20" rx="4" fill="#56d364"/>
+    <rect x="394" y="298" width="20" height="20" rx="4" fill="#2dd4bf"/>
+    <rect x="420" y="298" width="20" height="20" rx="4" fill="#79c0ff"/>
+    <rect x="446" y="298" width="20" height="20" rx="4" fill="#d2a8ff"/>
+    <rect x="472" y="298" width="20" height="20" rx="4" fill="#f0f6fc"/>
+  </g>
+
+  <!-- live prompt with blinking cursor -->
+  <text x="52" y="320" font-size="15.5">
+    <tspan fill="#56d364" font-weight="700">❯</tspan>
+  </text>
+  <rect x="72" y="308" width="9" height="16" rx="1.5" fill="#56d364">
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" repeatCount="indefinite"/>
+  </rect>
 </svg>
