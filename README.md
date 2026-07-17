@@ -11,7 +11,7 @@ $ interests
 web dev · systems design · competitive programming · anime marathons
 ```
 
-<img src="https://media1.tenor.com/m/8-LJGargSCYAAAAd/shanks-haki-shanks.gif" height="150" alt="Shanks - One Piece">
+<img src="https://media1.tenor.com/m/034VyqIYMBgAAAAd/red-aura-shanks.gif" height="150" alt="Shanks - One Piece">
 <br/>
 <a href="https://linkedin.com/in/md-faizan-ali" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>&nbsp;
 <a href="https://leetcode.com/u/thisisfaizanali/" target="_blank"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=LeetCode&logoColor=black" alt="LeetCode"/></a>&nbsp;
