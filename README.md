@@ -1,22 +1,23 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Hey%2C+I'm+Faizan+%F0%9F%91%8B;Full+Stack+Developer;React+%7C+Next.js+%7C+TypeScript;Building+smart%2C+fast+web+products" alt="Typing SVG" />
+<h1>Faizan Ali</h1>
+<p>Full Stack Developer &nbsp;·&nbsp; Bengaluru, India</p>
 
-<sub>Full Stack Developer &nbsp;·&nbsp; Bengaluru, India</sub>
+```
+$ whoami
+Faizan Ali — Full Stack Developer, Bengaluru, India
 
-<br/><br/>
+$ interests
+web dev · systems design · competitive programming · anime marathons
+```
 
-<img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" height="140" width="140" alt="Daft Punk Octocat">
-
-<br/><br/>
-
+<img src="https://media1.tenor.com/m/8-LJGargSCYAAAAd/shanks-haki-shanks.gif" height="150" alt="Shanks - One Piece">
+<br/>
 <a href="https://linkedin.com/in/md-faizan-ali" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>&nbsp;
 <a href="https://leetcode.com/u/thisisfaizanali/" target="_blank"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=LeetCode&logoColor=black" alt="LeetCode"/></a>&nbsp;
 <a href="https://github.com/thisisfaizanali" target="_blank"><img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub"/></a>&nbsp;
 <a href="mailto:faizanaliwhb@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
-
-<br/><br/>
-
+<br/>
 <img src="https://komarev.com/ghpvc/?username=thisisfaizanali&label=profile+views&color=58A6FF&style=flat-square" alt="Profile Views"/>&nbsp;
 <img src="https://img.shields.io/github/followers/thisisfaizanali?label=followers&style=flat-square&color=58A6FF&logo=github" alt="Followers"/>
 
@@ -29,7 +30,7 @@
 <tr>
 <td width="50%" valign="top">
 
-**About**
+**`$ about`**
 
 I build fast, type-safe web applications with clean architecture and sharp UX — mostly across the React and Next.js ecosystem, increasingly with LLMs wired into real product workflows.
 
@@ -40,7 +41,7 @@ Open to collaborating on full-stack projects, open-source tools, or anything AI-
 </td>
 <td width="50%" valign="top">
 
-**Tech Stack**
+**`$ tech_stack`**
 
 Languages
 <br/>
@@ -63,7 +64,7 @@ Tools
 <tr>
 <td width="50%" valign="top">
 
-**Problem Solving**
+**`$ problem_solving`**
 
 ![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=LeetCode&logoColor=black)
 &nbsp;**600+ Problems Solved**
@@ -82,7 +83,7 @@ Weekly Contest 167 &nbsp;·&nbsp; Rank 587
 </td>
 <td width="50%" valign="top">
 
-**GitHub Stats**
+**`$ github_stats`**
 
 <img width="100%" src="https://github-readme-stats.vercel.app/api?username=thisisfaizanali&show_icons=true&theme=github_dark&hide_border=true&count_private=true&rank_icon=github" alt="GitHub Stats"/>
 
