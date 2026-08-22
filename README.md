@@ -5,7 +5,6 @@
 <img src="assets/terminal.svg" width="100%" alt="fastfetch — faizan@github: Full Stack Developer, Bengaluru, India"/>
 
 <br/>
-<br/>
 
 <samp>❯&nbsp;connect&nbsp;--via</samp>&nbsp;&nbsp;&nbsp;
 <a href="https://linkedin.com/in/md-faizan-ali"><img height="42" src="https://skillicons.dev/icons?i=linkedin&theme=dark" alt="LinkedIn"/></a>&nbsp;&nbsp;
@@ -68,8 +67,6 @@ Open to collaborating on full-stack projects, open-source tools, or anything AI-
 <br/>
 <a href="https://leetcode.com/u/thisisfaizanali/">leetcode.com/u/thisisfaizanali</a>
 
-<br/>
-
 **GeeksforGeeks** &nbsp;·&nbsp; Institute Rank #2
 <br/>
 Weekly Contest 167 &nbsp;·&nbsp; Rank 587
@@ -83,9 +80,9 @@ Weekly Contest 167 &nbsp;·&nbsp; Rank 587
 
 <br/>
 
-<img width="100%" src="assets/stats/3-stats.svg" alt="GitHub Stats"/>
+<img width="100%" src="assets/stats/stats.svg" alt="GitHub Stats"/>
 
-<img width="100%" src="assets/stats/1-repos-per-language.svg" alt="Top Languages"/>
+<img width="100%" src="assets/stats/top-langs.svg" alt="Top Languages"/>
 
 </td>
 </tr>

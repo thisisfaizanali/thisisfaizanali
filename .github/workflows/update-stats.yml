@@ -14,32 +14,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: vn7n24fzkq/github-profile-summary-cards@release
+      - name: Generate stats cards
         env:
+          GH_USERNAME: thisisfaizanali
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          USERNAME: thisisfaizanali
-          THEME: github_dark
-          AUTO_PUSH: false
-
-      - name: Restyle cards to match terminal theme
-        run: |
-          for f in profile-summary-card-output/github_dark/*.svg; do
-            sed -i \
-              -e 's/#0d1117/#0d1220/g' \
-              -e 's/#2e343b/#283040/g' \
-              -e 's/#0366d6/#79c0ff/g' \
-              -e 's/#8b949e/#6e7681/g' \
-              -e 's/#77909c/#e6edf3/g' \
-              -e 's/#40c463/#56d364/g' \
-              "$f"
-          done
-
-      - name: Move cards into assets/
-        run: |
-          mkdir -p assets/stats
-          cp profile-summary-card-output/github_dark/*.svg assets/stats/
-          rm -rf profile-summary-card-output
+        run: node .github/scripts/render-cards.mjs
 
       - name: Commit updated cards
         run: |
