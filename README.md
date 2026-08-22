@@ -34,19 +34,19 @@ Open to collaborating on full-stack projects, open-source tools, or anything AI-
 
 <br/>
 
-<sub>**LANGUAGES**</sub>
+**LANGUAGES**
 <br/>
 <img src="https://skillicons.dev/icons?i=js,ts,cpp,mysql&theme=dark" alt="Languages"/>
 
-<sub>**FRONTEND**</sub>
+**FRONTEND**
 <br/>
 <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind&theme=dark" alt="Frontend"/>
 
-<sub>**BACKEND · DB**</sub>
+**BACKEND · DB**
 <br/>
 <img src="https://skillicons.dev/icons?i=nodejs,express,postgres,mongodb&theme=dark" alt="Backend and DB"/>
 
-<sub>**TOOLING**</sub>
+**TOOLING**
 <br/>
 <img src="https://skillicons.dev/icons?i=git,vercel,postman,vscode&theme=dark" alt="Tooling"/>
 
@@ -72,9 +72,7 @@ Weekly Contest 167 &nbsp;·&nbsp; Rank 587
 
 <br/>
 
-<img width="600" src="assets/stats/stats.svg" alt="GitHub Stats"/>
-
-<img width="600" src="assets/stats/top-langs.svg" alt="Top Languages"/>
+<img width="400" src="assets/stats/stats.svg" alt="GitHub Stats"/>&nbsp;&nbsp;<img width="400" src="assets/stats/top-langs.svg" alt="Top Languages"/>
 
 </div>
 
