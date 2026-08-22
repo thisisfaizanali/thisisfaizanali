@@ -26,7 +26,6 @@ jobs:
         run: |
           for f in profile-summary-card-output/github_dark/*.svg; do
             sed -i \
-              -e "s/'Segoe UI', Ubuntu, \"Helvetica Neue\", Sans-Serif/ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace/g" \
               -e 's/#0d1117/#0d1220/g' \
               -e 's/#2e343b/#283040/g' \
               -e 's/#0366d6/#79c0ff/g' \
