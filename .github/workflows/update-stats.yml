@@ -22,6 +22,20 @@ jobs:
           THEME: github_dark
           AUTO_PUSH: false
 
+      - name: Restyle cards to match terminal theme
+        run: |
+          for f in profile-summary-card-output/github_dark/*.svg; do
+            sed -i \
+              -e "s/'Segoe UI', Ubuntu, \"Helvetica Neue\", Sans-Serif/ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace/g" \
+              -e 's/#0d1117/#0d1220/g' \
+              -e 's/#2e343b/#283040/g' \
+              -e 's/#0366d6/#79c0ff/g' \
+              -e 's/#8b949e/#6e7681/g' \
+              -e 's/#77909c/#e6edf3/g' \
+              -e 's/#40c463/#56d364/g' \
+              "$f"
+          done
+
       - name: Move cards into assets/
         run: |
           mkdir -p assets/stats
