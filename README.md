@@ -17,9 +17,6 @@
 <br/>
 
 <div align="center">
-<table width="100%" cellpadding="12">
-<tr>
-<td width="50%" valign="top">
 
 <img src="assets/cmd-about.svg" height="34" alt="cat about.md"/>
 
@@ -31,8 +28,7 @@ I build fast, type-safe web applications with clean architecture and sharp UX â€
 
 Open to collaborating on full-stack projects, open-source tools, or anything AI-integrated.
 
-</td>
-<td width="50%" valign="top">
+<br/>
 
 <img src="assets/cmd-stack.svg" height="34" alt="ls ~/stack"/>
 
@@ -54,10 +50,7 @@ Open to collaborating on full-stack projects, open-source tools, or anything AI-
 <br/>
 <img src="https://skillicons.dev/icons?i=git,vercel,postman,vscode&theme=dark" alt="Tooling"/>
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+<br/>
 
 <img src="assets/cmd-solve.svg" height="34" alt="./solve --stats"/>
 
@@ -73,20 +66,16 @@ Weekly Contest 167 &nbsp;Â·&nbsp; Rank 587
 <br/>
 <a href="https://www.geeksforgeeks.org/user/thisisfaizanali/">geeksforgeeks.org/user/thisisfaizanali</a>
 
-</td>
-<td width="50%" valign="top">
+<br/>
 
 <img src="assets/cmd-stats.svg" height="34" alt="git log --stat"/>
 
 <br/>
 
-<img width="100%" src="assets/stats/stats.svg" alt="GitHub Stats"/>
+<img width="600" src="assets/stats/stats.svg" alt="GitHub Stats"/>
 
-<img width="100%" src="assets/stats/top-langs.svg" alt="Top Languages"/>
+<img width="600" src="assets/stats/top-langs.svg" alt="Top Languages"/>
 
-</td>
-</tr>
-</table>
 </div>
 
 <br/>
