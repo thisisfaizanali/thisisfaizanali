@@ -38,8 +38,10 @@ async function fetchProfile() {
     query {
       user(login: "${USERNAME}") {
         createdAt
-        repositories(first: 100, ownerAffiliations: OWNER, isFork: false) {
+        allRepos: repositories(ownerAffiliations: OWNER) {
           totalCount
+        }
+        repositories(first: 100, ownerAffiliations: OWNER, isFork: false) {
           nodes {
             stargazerCount
             languages(first: 10, orderBy: { field: SIZE, direction: DESC }) {
@@ -112,7 +114,7 @@ async function fetchProfile() {
     totalCommits,
     totalPRs: data.prs.issueCount,
     totalIssues: data.issues.issueCount,
-    publicRepos: data.user.repositories.totalCount,
+    publicRepos: data.user.allRepos.totalCount,
     languages,
   };
 }
