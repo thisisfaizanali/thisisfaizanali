@@ -64,7 +64,7 @@ Open to collaborating on full-stack projects, open-source tools, or anything AI-
 
 <br/>
 
-**LeetCode** &nbsp;·&nbsp; 600+ problems solved
+**LeetCode** &nbsp;·&nbsp; 700+ problems solved
 <br/>
 <a href="https://leetcode.com/u/thisisfaizanali/">leetcode.com/u/thisisfaizanali</a>
 
@@ -83,9 +83,9 @@ Weekly Contest 167 &nbsp;·&nbsp; Rank 587
 
 <br/>
 
-<img width="100%" src="https://github-readme-stats.vercel.app/api?username=thisisfaizanali&show_icons=true&theme=github_dark&hide_border=true&count_private=true&rank_icon=github" alt="GitHub Stats"/>
+<img width="100%" src="assets/stats/3-stats.svg" alt="GitHub Stats"/>
 
-<img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=thisisfaizanali&layout=compact&theme=github_dark&hide_border=true&langs_count=6" alt="Top Languages"/>
+<img width="100%" src="assets/stats/1-repos-per-language.svg" alt="Top Languages"/>
 
 </td>
 </tr>
