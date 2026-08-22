@@ -137,7 +137,7 @@ function card(width, height, body) {
     `</svg>`;
 }
 
-function renderStats(stats) {
+function renderStats(stats, height) {
   const width = 400;
   const rows = [
     ["star", "Total Stars", stats.totalStars],
@@ -146,11 +146,13 @@ function renderStats(stats) {
     ["issue", "Total Issues", stats.totalIssues],
     ["repo", "Public Repos", stats.publicRepos],
   ];
-  const height = 60 + rows.length * 28 + 16;
+  const naturalHeight = 60 + rows.length * 28 + 16;
+  const startY = 68 + (height - naturalHeight) / 2;
+
   let body = "";
   body += `<text x="24" y="38" fill="${PALETTE.title}" font-size="20" font-weight="700">Stats</text>`;
   rows.forEach(([iconName, label, value], i) => {
-    const y = 68 + i * 28;
+    const y = startY + i * 28;
     body += icon(iconName, 24, y - 12);
     body += `<text x="52" y="${y}" fill="${PALETTE.comment}" font-size="14">${label}</text>`;
     body += `<text x="${width - 24}" y="${y}" fill="${PALETTE.text}" font-size="14" font-weight="700" text-anchor="end">${value.toLocaleString()}</text>`;
@@ -158,9 +160,8 @@ function renderStats(stats) {
   return card(width, height, body);
 }
 
-function renderTopLangs(stats) {
+function renderTopLangs(stats, height) {
   const width = 400;
-  const height = 76 + stats.languages.length * 26;
   const barX = 24;
   const barWidth = width - 48;
 
@@ -192,6 +193,14 @@ function renderTopLangs(stats) {
 const fs = await import("node:fs");
 const stats = await fetchProfile();
 fs.mkdirSync("assets/stats", { recursive: true });
-fs.writeFileSync("assets/stats/stats.svg", renderStats(stats));
-fs.writeFileSync("assets/stats/top-langs.svg", renderTopLangs(stats));
+
+// Cards are shown side by side in the README, so give them matching heights
+// (default vertical-align on inline <img> aligns baselines, not tops, and
+// GitHub strips style="vertical-align" — matching heights sidesteps that).
+const statsHeight = 60 + 5 * 28 + 16;
+const langsHeight = 76 + stats.languages.length * 26;
+const sharedHeight = Math.max(statsHeight, langsHeight);
+
+fs.writeFileSync("assets/stats/stats.svg", renderStats(stats, sharedHeight));
+fs.writeFileSync("assets/stats/top-langs.svg", renderTopLangs(stats, sharedHeight));
 console.log(JSON.stringify(stats, null, 2));
