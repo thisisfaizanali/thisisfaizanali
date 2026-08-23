@@ -24,8 +24,6 @@
 
 I build fast, type-safe web applications with clean architecture and sharp UX — mostly across the React and Next.js ecosystem, increasingly with LLMs wired into real product workflows.
 
-**Currently:** leaning on AI tools and LLMs to learn and ship faster, while staying deliberate about keeping the fundamentals sharp.
-
 Open to collaborating on full-stack projects, open-source tools, or anything AI-integrated.
 
 <br/>
@@ -34,37 +32,18 @@ Open to collaborating on full-stack projects, open-source tools, or anything AI-
 
 <br/>
 
-**LANGUAGES**
-<br/>
-<img src="https://skillicons.dev/icons?i=js,ts,cpp,mysql&theme=dark" alt="Languages"/>
+<img width="440" src="https://skillicons.dev/icons?i=js,ts,cpp,react,nextjs,tailwind,nodejs,express,postgres,mongodb,mysql,git,vercel,postman,vscode&perline=8&theme=dark" alt="JavaScript, TypeScript, C++, React, Next.js, Tailwind, Node.js, Express, PostgreSQL, MongoDB, MySQL, Git, Vercel, Postman, VS Code"/>
 
-**FRONTEND**
 <br/>
-<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind&theme=dark" alt="Frontend"/>
-
-**BACKEND · DB**
-<br/>
-<img src="https://skillicons.dev/icons?i=nodejs,express,postgres,mongodb&theme=dark" alt="Backend and DB"/>
-
-**TOOLING**
-<br/>
-<img src="https://skillicons.dev/icons?i=git,vercel,postman,vscode&theme=dark" alt="Tooling"/>
-
 <br/>
 
 <img src="assets/cmd-solve.svg" height="34" alt="./solve --stats"/>
 
 <br/>
 
-**LeetCode** &nbsp;·&nbsp; 700+ problems solved
+<a href="https://leetcode.com/u/thisisfaizanali/"><b>LeetCode</b></a> &nbsp;·&nbsp; 700+ problems solved
 <br/>
-<a href="https://leetcode.com/u/thisisfaizanali/">leetcode.com/u/thisisfaizanali</a>
-
-**GeeksforGeeks** &nbsp;·&nbsp; Institute Rank #2
-<br/>
-Weekly Contest 167 &nbsp;·&nbsp; Rank 587
-<br/>
-<a href="https://www.geeksforgeeks.org/user/thisisfaizanali/">geeksforgeeks.org/user/thisisfaizanali</a>
+<a href="https://www.geeksforgeeks.org/user/thisisfaizanali/"><b>GeeksforGeeks</b></a> &nbsp;·&nbsp; Institute Rank #2
 
 <br/>
 
@@ -72,7 +51,7 @@ Weekly Contest 167 &nbsp;·&nbsp; Rank 587
 
 <br/>
 
-<img width="400" src="assets/stats/stats.svg" alt="GitHub Stats"/>&nbsp;&nbsp;<img width="400" src="assets/stats/top-langs.svg" alt="Top Languages"/>
+<img width="49%" src="assets/stats/stats.svg" alt="GitHub Stats"/>&nbsp;<img width="49%" src="assets/stats/top-langs.svg" alt="Top Languages"/>
 
 </div>
 

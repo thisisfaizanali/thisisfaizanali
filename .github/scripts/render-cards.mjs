@@ -41,6 +41,9 @@ async function fetchProfile() {
         allRepos: repositories(ownerAffiliations: OWNER) {
           totalCount
         }
+        starRepos: repositories(first: 100, ownerAffiliations: OWNER) {
+          nodes { stargazerCount }
+        }
         repositories(first: 100, ownerAffiliations: OWNER, isFork: false) {
           nodes {
             stargazerCount
@@ -80,7 +83,12 @@ async function fetchProfile() {
   );
 
   const repoNodes = data.user.repositories.nodes;
-  const totalStars = repoNodes.reduce((s, r) => s + r.stargazerCount, 0);
+  // Stars count every owned repo including forks; languages stay non-fork only
+  // so forked codebases don't skew the top-languages breakdown.
+  const totalStars = data.user.starRepos.nodes.reduce(
+    (s, r) => s + r.stargazerCount,
+    0
+  );
 
   const langBytes = new Map();
   const langColors = new Map();
