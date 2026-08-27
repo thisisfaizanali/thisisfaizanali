@@ -2,7 +2,7 @@ name: Update GitHub Stats Cards
 
 on:
   schedule:
-    - cron: "0 3 * * *"
+    - cron: "37 5 * * *"
   workflow_dispatch:
 
 permissions:
