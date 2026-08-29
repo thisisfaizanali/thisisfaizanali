@@ -1,6 +1,8 @@
 name: Update GitHub Stats Cards
 
 on:
+  schedule:
+    - cron: "37 5 * * *"
   workflow_dispatch:
 
 permissions:
