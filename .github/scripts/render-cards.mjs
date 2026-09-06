@@ -67,7 +67,7 @@ async function fetchProfile() {
   for (let y = startYear; y <= currentYear; y++) {
     const to = y === currentYear ? new Date().toISOString() : `${y}-12-31T23:59:59Z`;
     yearFields.push(
-      `y${y}: contributionsCollection(from: "${y}-01-01T00:00:00Z", to: "${to}") { totalCommitContributions }`
+      `y${y}: contributionsCollection(from: "${y}-01-01T00:00:00Z", to: "${to}") { totalCommitContributions restrictedContributionsCount }`
     );
   }
   const commitsData = await graphql(`
@@ -77,8 +77,12 @@ async function fetchProfile() {
       }
     }
   `);
+  // restrictedContributionsCount = activity in private repos the token can't see
+  // into; needs "Include private contributions on my profile" enabled in GitHub
+  // settings, else it's 0 for the CI token. It lumps all private contribution
+  // types together (no commit-only breakdown exists), so this is an approximation.
   const totalCommits = Object.values(commitsData.user).reduce(
-    (sum, y) => sum + y.totalCommitContributions,
+    (sum, y) => sum + y.totalCommitContributions + y.restrictedContributionsCount,
     0
   );
 
