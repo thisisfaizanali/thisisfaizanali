@@ -1,17 +1,14 @@
 <div align="center">
 
-<h1>Faizan Ali</h1>
-
-<img src="assets/terminal.svg" width="100%" alt="fastfetch — faizan@github: Full Stack Developer, Bengaluru, India"/>
+<img src="assets/hero.svg" width="100%" alt="Faizan Ali — Full Stack Developer, Bengaluru, India"/>
 
 <br/>
+<br/>
 
-<samp>❯&nbsp;connect&nbsp;--via</samp>&nbsp;&nbsp;&nbsp;
-<a href="mailto:faizanaliwhb@gmail.com"><img height="42" src="https://skillicons.dev/icons?i=gmail&theme=dark" alt="Email"/></a>&nbsp;&nbsp;
-<a href="https://linkedin.com/in/md-faizan-ali"><img height="42" src="https://skillicons.dev/icons?i=linkedin&theme=dark" alt="LinkedIn"/></a>&nbsp;&nbsp;
-<a href="https://github.com/thisisfaizanali"><img height="42" src="https://skillicons.dev/icons?i=github&theme=dark" alt="GitHub"/></a>&nbsp;&nbsp;
-<a href="https://leetcode.com/u/thisisfaizanali/"><img height="42" src="assets/leetcode.svg" alt="LeetCode"/></a>&nbsp;&nbsp;
-<a href="https://thisisfaizanali.github.io"><img height="42" src="assets/portfolio.svg" alt="Portfolio"/></a>
+<a href="mailto:faizanaliwhb@gmail.com"><img height="40" src="assets/link-email.svg" alt="Email"/></a>&nbsp;
+<a href="https://linkedin.com/in/md-faizan-ali"><img height="40" src="assets/link-linkedin.svg" alt="LinkedIn"/></a>&nbsp;
+<a href="https://leetcode.com/u/thisisfaizanali/"><img height="40" src="assets/link-leetcode.svg" alt="LeetCode"/></a>&nbsp;
+<a href="https://thisisfaizanali.github.io"><img height="40" src="assets/link-portfolio.svg" alt="Portfolio"/></a>
 
 </div>
 
@@ -19,36 +16,34 @@
 
 <div align="center">
 
-<img src="assets/cmd-about.svg" height="34" alt="cat about.md"/>
+<img src="assets/label-about.svg" width="100%" alt="01 — About"/>
 
 <br/>
 
-I build fast, type-safe web applications with clean architecture and sharp UX — mostly across the React and Next.js ecosystem, increasingly with LLMs wired into real product workflows.
+I build fast, type-safe web apps with clean architecture and sharp UX — mostly in React and Next.js, increasingly with LLMs wired into real product workflows.
 
 Open to collaborating on full-stack projects, open-source tools, or anything AI-integrated.
 
 <br/>
 
-<img src="assets/cmd-stack.svg" height="34" alt="ls ~/stack"/>
+<img src="assets/label-stack.svg" width="100%" alt="02 — Stack"/>
 
 <br/>
 
-<img width="440" src="https://skillicons.dev/icons?i=js,ts,cpp,react,nextjs,tailwind,nodejs,express,postgres,mongodb,mysql,git,vercel,postman,vscode&perline=8&theme=dark" alt="JavaScript, TypeScript, C++, React, Next.js, Tailwind, Node.js, Express, PostgreSQL, MongoDB, MySQL, Git, Vercel, Postman, VS Code"/>
+<img src="assets/stack.svg" width="100%" alt="Languages: JavaScript, TypeScript, C++. Frontend: React, Next.js, Tailwind. Backend: Node.js, Express. Data: PostgreSQL, MongoDB, MySQL. Tools: Git, Vercel."/>
 
 <br/>
 <br/>
 
-<img src="assets/cmd-solve.svg" height="34" alt="./solve --stats"/>
+<img src="assets/label-solve.svg" width="100%" alt="03 — Problem solving"/>
 
 <br/>
 
-<a href="https://leetcode.com/u/thisisfaizanali/"><b>LeetCode</b></a> &nbsp;·&nbsp; 700+ problems solved
-<br/>
-<a href="https://www.geeksforgeeks.org/user/thisisfaizanali/"><b>GeeksforGeeks</b></a> &nbsp;·&nbsp; Institute Rank #2
+<a href="https://leetcode.com/u/thisisfaizanali/"><img width="49%" src="assets/tile-leetcode.svg" alt="LeetCode — 700+ problems solved"/></a>&nbsp;<a href="https://www.geeksforgeeks.org/user/thisisfaizanali/"><img width="49%" src="assets/tile-gfg.svg" alt="GeeksforGeeks — Institute Rank #2"/></a>
 
 <br/>
 
-<img src="assets/cmd-stats.svg" height="34" alt="git log --stat"/>
+<img src="assets/label-activity.svg" width="100%" alt="04 — GitHub activity"/>
 
 <br/>
 
@@ -64,6 +59,6 @@ Open to collaborating on full-stack projects, open-source tools, or anything AI-
 
 <br/>
 
-<samp># thanks for stopping by — always happy to connect.</samp>
+Thanks for stopping by — always happy to connect.
 
 </div>
