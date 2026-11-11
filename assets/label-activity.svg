@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 44" width="900" height="44" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="04 — GITHUB ACTIVITY">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d1220"/><stop offset="1" stop-color="#090c15"/></linearGradient></defs>
+  <rect x="0.5" y="0.5" width="899" height="43" rx="8" fill="url(#bg)" stroke="#283040"/>
+  <text x="28" y="27" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="12" letter-spacing="2.5" xml:space="preserve"><tspan fill="#56d364">04</tspan><tspan fill="#6e7681"> — GITHUB ACTIVITY</tspan></text>
+  <line x1="236" y1="22.5" x2="872" y2="22.5" stroke="#283040"/>
+</svg>

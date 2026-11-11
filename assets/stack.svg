@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 264" width="900" height="264" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Languages: JavaScript, TypeScript, C++. Frontend: React, Next.js, Tailwind. Backend: Node.js, Express. Data: PostgreSQL, MongoDB, MySQL. Tools: Git, Vercel.">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d1220"/><stop offset="1" stop-color="#090c15"/></linearGradient></defs>
+  <rect x="0.5" y="0.5" width="899" height="263" rx="12" fill="url(#bg)" stroke="#283040"/>
+  <text x="40" y="50" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="11" letter-spacing="2.2" fill="#6e7681">LANGUAGES</text>
+  <text x="220" y="51" font-size="16" fill="#e6edf3" xml:space="preserve">JavaScript <tspan fill="#6e7681">·</tspan> TypeScript <tspan fill="#6e7681">·</tspan> C++</text>
+  <line x1="40" y1="73.5" x2="860" y2="73.5" stroke="#283040"/>
+  <text x="40" y="98" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="11" letter-spacing="2.2" fill="#6e7681">FRONTEND</text>
+  <text x="220" y="99" font-size="16" fill="#e6edf3" xml:space="preserve">React <tspan fill="#6e7681">·</tspan> Next.js <tspan fill="#6e7681">·</tspan> Tailwind</text>
+  <line x1="40" y1="121.5" x2="860" y2="121.5" stroke="#283040"/>
+  <text x="40" y="146" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="11" letter-spacing="2.2" fill="#6e7681">BACKEND</text>
+  <text x="220" y="147" font-size="16" fill="#e6edf3" xml:space="preserve">Node.js <tspan fill="#6e7681">·</tspan> Express</text>
+  <line x1="40" y1="169.5" x2="860" y2="169.5" stroke="#283040"/>
+  <text x="40" y="194" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="11" letter-spacing="2.2" fill="#6e7681">DATA</text>
+  <text x="220" y="195" font-size="16" fill="#e6edf3" xml:space="preserve">PostgreSQL <tspan fill="#6e7681">·</tspan> MongoDB <tspan fill="#6e7681">·</tspan> MySQL</text>
+  <line x1="40" y1="217.5" x2="860" y2="217.5" stroke="#283040"/>
+  <text x="40" y="242" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="11" letter-spacing="2.2" fill="#6e7681">TOOLS</text>
+  <text x="220" y="243" font-size="16" fill="#e6edf3" xml:space="preserve">Git <tspan fill="#6e7681">·</tspan> Vercel</text>
+</svg>
