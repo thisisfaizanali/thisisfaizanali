@@ -5,15 +5,16 @@ const USERNAME = process.env.GH_USERNAME;
 const TOKEN = process.env.GITHUB_TOKEN;
 
 const PALETTE = {
-  bg: "#0d1220",
+  bgTop: "#0d1220",
+  bgBottom: "#090c15",
   border: "#283040",
-  title: "#79c0ff",
   text: "#e6edf3",
   comment: "#6e7681",
   accent: "#56d364",
 };
 
-const FONT =
+const SANS = "-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif";
+const MONO =
   "ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace";
 
 async function graphql(query) {
@@ -50,7 +51,7 @@ async function fetchProfile() {
             languages(first: 10, orderBy: { field: SIZE, direction: DESC }) {
               edges {
                 size
-                node { name color }
+                node { name }
               }
             }
           }
@@ -95,12 +96,10 @@ async function fetchProfile() {
   );
 
   const langBytes = new Map();
-  const langColors = new Map();
   for (const repo of repoNodes) {
     for (const edge of repo.languages.edges) {
       const name = edge.node.name;
       langBytes.set(name, (langBytes.get(name) || 0) + edge.size);
-      if (edge.node.color) langColors.set(name, edge.node.color);
     }
   }
   const totalBytes = [...langBytes.values()].reduce((a, b) => a + b, 0);
@@ -110,14 +109,12 @@ async function fetchProfile() {
   const languages = top.map(([name, bytes]) => ({
     name,
     pct: (bytes / totalBytes) * 100,
-    color: langColors.get(name) || PALETTE.comment,
   }));
   if (rest.length > 0) {
     const restBytes = rest.reduce((s, [, b]) => s + b, 0);
     languages.push({
       name: "Other",
       pct: (restBytes / totalBytes) * 100,
-      color: PALETTE.comment,
     });
   }
 
@@ -143,10 +140,13 @@ function icon(name, x, y) {
   return `<g transform="translate(${x},${y})" fill="${PALETTE.comment}"><path d="${ICONS[name]}"/></g>`;
 }
 
-function card(width, height, body) {
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}">` +
-    `<style>text{font-family:${FONT};}</style>` +
-    `<rect x="0.5" y="0.5" width="${width - 1}" height="${height - 1}" rx="10" fill="${PALETTE.bg}" stroke="${PALETTE.border}"/>` +
+function card(width, height, title, body) {
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" font-family="${SANS}">` +
+    `<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${PALETTE.bgTop}"/><stop offset="1" stop-color="${PALETTE.bgBottom}"/></linearGradient></defs>` +
+    `<rect x="0.5" y="0.5" width="${width - 1}" height="${height - 1}" rx="12" fill="url(#bg)" stroke="${PALETTE.border}"/>` +
+    `<text x="24" y="34" font-family="${MONO}" font-size="11" letter-spacing="2.2" fill="${PALETTE.comment}">${title}</text>` +
+    `<rect x="24" y="44" width="24" height="2" fill="${PALETTE.accent}"/>` +
+    `<line x1="54" y1="45" x2="${width - 24}" y2="45" stroke="${PALETTE.border}"/>` +
     body +
     `</svg>`;
 }
@@ -164,14 +164,13 @@ function renderStats(stats, height) {
   const startY = 68 + (height - naturalHeight) / 2;
 
   let body = "";
-  body += `<text x="24" y="38" fill="${PALETTE.title}" font-size="20" font-weight="700">Stats</text>`;
   rows.forEach(([iconName, label, value], i) => {
     const y = startY + i * 28;
     body += icon(iconName, 24, y - 12);
     body += `<text x="52" y="${y}" fill="${PALETTE.comment}" font-size="14">${label}</text>`;
     body += `<text x="${width - 24}" y="${y}" fill="${PALETTE.text}" font-size="14" font-weight="700" text-anchor="end">${value.toLocaleString()}</text>`;
   });
-  return card(width, height, body);
+  return card(width, height, "STATS", body);
 }
 
 function renderTopLangs(stats, height) {
@@ -179,7 +178,11 @@ function renderTopLangs(stats, height) {
   const barX = 24;
   const barWidth = width - 48;
 
-  let body = `<text x="24" y="38" fill="${PALETTE.title}" font-size="20" font-weight="700">Top Languages</text>`;
+  let body = "";
+
+  // Single-accent look: languages are shades of the accent (by rank), not
+  // GitHub's per-language colours.
+  const shade = (i) => Math.max(1 - i * 0.14, 0.18).toFixed(2);
 
   let bar = "";
   let x = barX;
@@ -188,20 +191,20 @@ function renderTopLangs(stats, height) {
       i === stats.languages.length - 1
         ? barX + barWidth - x
         : (lang.pct / 100) * barWidth;
-    bar += `<rect x="${x}" y="52" width="${Math.max(w, 0)}" height="10" fill="${lang.color}"/>`;
+    bar += `<rect x="${x}" y="58" width="${Math.max(w - 2, 0)}" height="8" fill="${PALETTE.accent}" fill-opacity="${shade(i)}"/>`;
     x += w;
   });
-  body += `<clipPath id="bar-clip"><rect x="${barX}" y="52" width="${barWidth}" height="10" rx="5"/></clipPath>`;
+  body += `<clipPath id="bar-clip"><rect x="${barX}" y="58" width="${barWidth}" height="8" rx="4"/></clipPath>`;
   body += `<g clip-path="url(#bar-clip)">${bar}</g>`;
 
   stats.languages.forEach((lang, i) => {
-    const y = 90 + i * 26;
-    body += `<circle cx="30" cy="${y - 5}" r="6" fill="${lang.color}"/>`;
+    const y = 94 + i * 26;
+    body += `<rect x="24" y="${y - 10}" width="10" height="10" rx="2" fill="${PALETTE.accent}" fill-opacity="${shade(i)}"/>`;
     body += `<text x="46" y="${y}" fill="${PALETTE.text}" font-size="14">${lang.name}</text>`;
     body += `<text x="${width - 24}" y="${y}" fill="${PALETTE.comment}" font-size="14" text-anchor="end">${lang.pct.toFixed(1)}%</text>`;
   });
 
-  return card(width, height, body);
+  return card(width, height, "TOP LANGUAGES", body);
 }
 
 const fs = await import("node:fs");
@@ -212,7 +215,7 @@ fs.mkdirSync("assets/stats", { recursive: true });
 // (default vertical-align on inline <img> aligns baselines, not tops, and
 // GitHub strips style="vertical-align" — matching heights sidesteps that).
 const statsHeight = 60 + 5 * 28 + 16;
-const langsHeight = 76 + stats.languages.length * 26;
+const langsHeight = 84 + stats.languages.length * 26;
 const sharedHeight = Math.max(statsHeight, langsHeight);
 
 fs.writeFileSync("assets/stats/stats.svg", renderStats(stats, sharedHeight));
