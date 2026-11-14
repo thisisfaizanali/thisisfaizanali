@@ -15,10 +15,10 @@
   <circle cx="60" cy="281" r="4" fill="none" stroke="#3fb950"><animate attributeName="r" values="4;10" dur="1.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.7;0" dur="1.8s" repeatCount="indefinite"/></circle>
   <text x="76" y="286" font-size="14" font-weight="600" fill="#f2f3f5">Open to full-time roles and collabs</text>
 
-  <rect x="572.5" y="0.5" width="327" height="159" rx="18" fill="url(#bg)" stroke="#26282d"/>
-  <text x="600" y="46" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="11" letter-spacing="2.2" fill="#636872">BASED IN</text>
-  <text x="599" y="92" font-size="32" font-weight="700" letter-spacing="-0.6" fill="#f2f3f5">Bengaluru</text>
-  <text x="600" y="120" font-size="15" fill="#9499a3">India · UTC+5:30</text>
+  <rect x="576.5" y="0.5" width="323" height="157" rx="18" fill="url(#bg)" stroke="#26282d"/>
+  <text x="604" y="46" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="11" letter-spacing="2.2" fill="#636872">BASED IN</text>
+  <text x="603" y="92" font-size="32" font-weight="700" letter-spacing="-0.6" fill="#f2f3f5">Bengaluru</text>
+  <text x="604" y="120" font-size="15" fill="#9499a3">India · UTC+5:30</text>
   <g fill="none" stroke="#ff5a5f">
     <circle cx="846" cy="80" r="42" stroke-opacity="0.12"/>
     <circle cx="846" cy="80" r="28" stroke-opacity="0.22"/>
@@ -26,11 +26,11 @@
   </g>
   <circle cx="846" cy="80" r="5" fill="#ff5a5f"/>
 
-  <rect x="572.5" y="180.5" width="327" height="159" rx="18" fill="url(#bg)" stroke="#26282d"/>
-  <text x="600" y="226" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="11" letter-spacing="2.2" fill="#636872">NOW</text>
-  <text x="600" y="262" font-size="13" fill="#636872">Building</text>
-  <text x="680" y="262" font-size="15" font-weight="600" fill="#f2f3f5">LLM-integrated products</text>
-  <line x1="600" y1="278.5" x2="872" y2="278.5" stroke="#26282d"/>
-  <text x="600" y="304" font-size="13" fill="#636872">Learning</text>
-  <text x="680" y="304" font-size="15" font-weight="600" fill="#f2f3f5">System design, AI agents</text>
+  <rect x="576.5" y="182.5" width="323" height="157" rx="18" fill="url(#bg)" stroke="#26282d"/>
+  <text x="604" y="228" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="11" letter-spacing="2.2" fill="#636872">NOW</text>
+  <text x="604" y="264" font-size="13" fill="#636872">Building</text>
+  <text x="684" y="264" font-size="15" font-weight="600" fill="#f2f3f5">LLM-integrated products</text>
+  <line x1="604" y1="280.5" x2="872" y2="280.5" stroke="#26282d"/>
+  <text x="604" y="306" font-size="13" fill="#636872">Learning</text>
+  <text x="684" y="306" font-size="15" font-weight="600" fill="#f2f3f5">System design, AI agents</text>
 </svg>

@@ -2,10 +2,10 @@
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#141518"/><stop offset="1" stop-color="#0d0e10"/></linearGradient><radialGradient id="g" cx="1" cy="0" r="1"><stop offset="0" stop-color="#2f8d46" stop-opacity="0.26"/><stop offset="1" stop-color="#2f8d46" stop-opacity="0"/></radialGradient>
   </defs>
-  <rect x="10.5" y="0.5" width="439" height="155" rx="18" fill="url(#bg)" stroke="#26282d"/><rect x="11" y="1" width="438" height="154" rx="17" fill="url(#g)"/>
-  <circle cx="42" cy="42" r="4" fill="#2f8d46"/>
-  <text x="54" y="46" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="11" letter-spacing="2.2" fill="#9499a3">GEEKSFORGEEKS</text>
-  <text x="36" y="112" font-size="58" font-weight="800" letter-spacing="-2" fill="#f2f3f5">#2</text>
-  <text x="38" y="134" font-size="14" fill="#9499a3">institute rank</text>
+  <rect x="12.5" y="0.5" width="437" height="155" rx="18" fill="url(#bg)" stroke="#26282d"/><rect x="13" y="1" width="436" height="154" rx="17" fill="url(#g)"/>
+  <circle cx="44" cy="42" r="4" fill="#2f8d46"/>
+  <text x="56" y="46" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="11" letter-spacing="2.2" fill="#9499a3">GEEKSFORGEEKS</text>
+  <text x="38" y="112" font-size="58" font-weight="800" letter-spacing="-2" fill="#f2f3f5">#2</text>
+  <text x="40" y="134" font-size="14" fill="#9499a3">institute rank</text>
   <path d="M412 41 L421 32 M414 32 H421 V39" fill="none" stroke="#2f8d46" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

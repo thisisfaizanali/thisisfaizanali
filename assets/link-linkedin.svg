@@ -2,10 +2,10 @@
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#141518"/><stop offset="1" stop-color="#0d0e10"/></linearGradient>
   </defs>
-  <rect x="7.17" y="0.5" width="285.67" height="75" rx="18" fill="url(#bg)" stroke="#26282d"/>
-  <rect x="24.67" y="18" width="40" height="40" rx="11" fill="#1a1c20" stroke="#2c2f36"/>
-  <text x="44.67" y="44" text-anchor="middle" font-size="18" font-weight="800" fill="#f2f3f5">in</text>
-  <text x="78.67" y="35" font-size="15.5" font-weight="700" fill="#f2f3f5">LinkedIn</text>
-  <text x="78.67" y="54" font-size="12" fill="#9499a3">in/md-faizan-ali</text>
-  <path d="M259.33 30 L268.33 21 M261.33 21 H268.33 V28" fill="none" stroke="#ff5a5f" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="8.5" y="0.5" width="283" height="75" rx="18" fill="url(#bg)" stroke="#26282d"/>
+  <rect x="26" y="18" width="40" height="40" rx="11" fill="#1a1c20" stroke="#2c2f36"/>
+  <text x="46" y="44" text-anchor="middle" font-size="18" font-weight="800" fill="#f2f3f5">in</text>
+  <text x="80" y="35" font-size="15.5" font-weight="700" fill="#f2f3f5">LinkedIn</text>
+  <text x="80" y="54" font-size="12" fill="#9499a3">in/md-faizan-ali</text>
+  <path d="M258 30 L267 21 M260 21 H267 V28" fill="none" stroke="#ff5a5f" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

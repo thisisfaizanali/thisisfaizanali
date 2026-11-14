@@ -144,7 +144,7 @@ function icon(name, x, y) {
 }
 
 function card(width, height, body, offsetX = 0) {
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${width + 10}" height="${height}" viewBox="0 0 ${width + 10} ${height}">` +
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${width + 12}" height="${height}" viewBox="0 0 ${width + 12} ${height}">` +
     `<style>text{font-family:${FONT};}</style>` +
     `<g transform="translate(${offsetX},0)">` +
     `<rect x="0.5" y="0.5" width="${width - 1}" height="${height - 1}" rx="18" fill="${PALETTE.bg}" stroke="${PALETTE.border}"/>` +
@@ -154,7 +154,7 @@ function card(width, height, body, offsetX = 0) {
 }
 
 function renderStats(stats, height) {
-  const width = 440;
+  const width = 438;
   const rows = [
     ["star", "Total Stars", stats.totalStars],
     ["commit", "Total Commits", stats.totalCommits],
@@ -177,7 +177,7 @@ function renderStats(stats, height) {
 }
 
 function renderTopLangs(stats, height) {
-  const width = 440;
+  const width = 438;
   const barX = 24;
   const barWidth = width - 48;
 
@@ -203,7 +203,7 @@ function renderTopLangs(stats, height) {
     body += `<text x="${width - 24}" y="${y}" fill="${PALETTE.comment}" font-size="14" text-anchor="end">${lang.pct.toFixed(1)}%</text>`;
   });
 
-  return card(width, height, body, 10);
+  return card(width, height, body, 12);
 }
 
 const fs = await import("node:fs");

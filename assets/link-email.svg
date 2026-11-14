@@ -2,10 +2,10 @@
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#141518"/><stop offset="1" stop-color="#0d0e10"/></linearGradient>
   </defs>
-  <rect x="13.83" y="0.5" width="285.67" height="75" rx="18" fill="url(#bg)" stroke="#26282d"/>
-  <rect x="31.33" y="18" width="40" height="40" rx="11" fill="#1a1c20" stroke="#2c2f36"/>
-  <g fill="none" stroke="#f2f3f5" stroke-width="1.6" stroke-linejoin="round"><rect x="41.33" y="31" width="20" height="14" rx="2.5"/><path d="M41.83 32.5 L51.33 39.5 L60.83 32.5"/></g>
-  <text x="85.33" y="35" font-size="15.5" font-weight="700" fill="#f2f3f5">Email</text>
-  <text x="85.33" y="54" font-size="12" fill="#9499a3">faizanaliwhb@gmail.com</text>
+  <rect x="16.5" y="0.5" width="283" height="75" rx="18" fill="url(#bg)" stroke="#26282d"/>
+  <rect x="34" y="18" width="40" height="40" rx="11" fill="#1a1c20" stroke="#2c2f36"/>
+  <g fill="none" stroke="#f2f3f5" stroke-width="1.6" stroke-linejoin="round"><rect x="44" y="31" width="20" height="14" rx="2.5"/><path d="M44.5 32.5 L54 39.5 L63.5 32.5"/></g>
+  <text x="88" y="35" font-size="15.5" font-weight="700" fill="#f2f3f5">Email</text>
+  <text x="88" y="54" font-size="12" fill="#9499a3">faizanaliwhb@gmail.com</text>
   <path d="M266 30 L275 21 M268 21 H275 V28" fill="none" stroke="#ff5a5f" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
