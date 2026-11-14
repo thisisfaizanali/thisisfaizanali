@@ -5,12 +5,12 @@ const USERNAME = process.env.GH_USERNAME;
 const TOKEN = process.env.GITHUB_TOKEN;
 
 const PALETTE = {
-  bg: "#0d1220",
-  border: "#283040",
-  title: "#79c0ff",
-  text: "#e6edf3",
-  comment: "#6e7681",
-  accent: "#56d364",
+  bg: "#111214",
+  border: "#26282d",
+  title: "#f2f3f5",
+  text: "#f2f3f5",
+  comment: "#9499a3",
+  accent: "#ff5a5f",
 };
 
 const FONT =
@@ -143,16 +143,18 @@ function icon(name, x, y) {
   return `<g transform="translate(${x},${y})" fill="${PALETTE.comment}"><path d="${ICONS[name]}"/></g>`;
 }
 
-function card(width, height, body) {
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}">` +
+function card(width, height, body, offsetX = 0) {
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${width + 10}" height="${height}" viewBox="0 0 ${width + 10} ${height}">` +
     `<style>text{font-family:${FONT};}</style>` +
-    `<rect x="0.5" y="0.5" width="${width - 1}" height="${height - 1}" rx="10" fill="${PALETTE.bg}" stroke="${PALETTE.border}"/>` +
+    `<g transform="translate(${offsetX},0)">` +
+    `<rect x="0.5" y="0.5" width="${width - 1}" height="${height - 1}" rx="18" fill="${PALETTE.bg}" stroke="${PALETTE.border}"/>` +
     body +
+    `</g>` +
     `</svg>`;
 }
 
 function renderStats(stats, height) {
-  const width = 400;
+  const width = 440;
   const rows = [
     ["star", "Total Stars", stats.totalStars],
     ["commit", "Total Commits", stats.totalCommits],
@@ -175,7 +177,7 @@ function renderStats(stats, height) {
 }
 
 function renderTopLangs(stats, height) {
-  const width = 400;
+  const width = 440;
   const barX = 24;
   const barWidth = width - 48;
 
@@ -201,7 +203,7 @@ function renderTopLangs(stats, height) {
     body += `<text x="${width - 24}" y="${y}" fill="${PALETTE.comment}" font-size="14" text-anchor="end">${lang.pct.toFixed(1)}%</text>`;
   });
 
-  return card(width, height, body);
+  return card(width, height, body, 10);
 }
 
 const fs = await import("node:fs");
