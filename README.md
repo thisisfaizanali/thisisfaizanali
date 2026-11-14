@@ -33,4 +33,4 @@ open to    →  full-time roles, full-stack and ai collabs
 
 [portfolio](https://thisisfaizanali.github.io) · [linkedin](https://linkedin.com/in/md-faizan-ali) · [leetcode](https://leetcode.com/u/thisisfaizanali/) · [email](mailto:faizanaliwhb@gmail.com)
 
-<img src="https://media1.tenor.com/m/034VyqIYMBgAAAAd/red-aura-shanks.gif" height="120" alt="Shanks - One Piece" />
+<p align="center"><img src="https://media1.tenor.com/m/034VyqIYMBgAAAAd/red-aura-shanks.gif" height="120" alt="Shanks - One Piece" /></p>
